@@ -1,0 +1,251 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    .body1 {
+    position: relative;
+    text-align: center;
+    padding: 0px 100px;
+    height: 120vh;
+}
+
+.line {
+    position: absolute;
+    width: 65%;
+    top: 8%;
+    left: 22%;
+    height: 60%;
+}
+
+.divs div {
+    width: 400px;
+}
+
+.divs div img {
+    width: 250px;
+}
+
+.divs div h3 {
+    color: #999;
+    font-size: 25px;
+}
+
+.divs div p {
+    color: #b9b9b9;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.divs .div1 {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+}
+
+.divs .div2 {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+}
+
+.divs .div3 {
+    position: absolute;
+    top: 65%;
+    right: 12%;
+}
+
+.div4 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+.div4all {
+    position: relative;
+}
+
+.div4all img {
+    width: 370px;
+}
+
+.div4all div {
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    text-align: left;
+}
+
+.h1-p p { 
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.h1-p h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 55px;
+    font-weight: 350;
+}
+
+.body2 {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainbody2 {
+    padding: 0 30px;
+}
+
+.mainbody2 h3 {
+    color: #999;
+    font-size: 25px;
+}
+
+.mainbody2 p {
+    color: #b9b9b9;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 576px) {
+    .body1 {
+        position: absolute;
+        width: 65%;
+        top: 15%;
+        left: 22%;
+        height: 35%;
+    }
+}
+@media only screen and (max-width:1200px) {
+
+    /*start first section*/
+    .body1 {
+        height: 80vh;
+    }
+
+    .h1-p {
+        padding-top: 120px;
+    }
+
+    .h1-p h3 {
+        font-size: 45px;
+    }
+
+    .h1-p p {
+        font-size: 22px;
+    }
+
+    .waves {
+        top: 70%;
+    }
+}
+    @media only screen and (max-width:992px) {
+
+        /*start first section*/
+        .body1 {
+            height: 70vh;
+        }
+    
+        .h1-p {
+            padding-top: 50px;
+        }
+    
+        .h1-p h3 {
+            font-size: 35px;
+        }
+    
+        .h1-p p {
+            font-size: 18px;
+        }
+    }
+    /* Styles for all screens by default */
+.my-image {
+    width: 400px;
+}
+
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    .my-image {
+        width: 80%;
+    }
+}
+/* ****************footer***************** */
+/* ########################################### */
+footer{
+    /* background-image: url('/imges/Group.png'); */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px; 
+    height: 80vh;
+    overflow: hidden;
+    padding-left: 150px;
+    padding-bottom:20px;
+}
+.bckgfooter {
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+    top: 0;
+    z-index: -1;
+
+}
+.people {
+    position: absolute;
+    width: 40vw;
+    right: 10%;
+    bottom: 0%;
+
+}
+footer .appInstallMarket{
+    display: flex;
+    margin-bottom: 30px;
+}
+footer .appInstallMarket div{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius:20px;
+}
+footer .appInstallMarket p{
+    color: gray;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+footer .socilAccount{
+    display: flex;
+    margin-bottom: 30px;
+}
+footer .socilAccount img{
+    margin-right: 20px;
+}
+footer .pages ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    color: aliceblue;
+}
+footer .pages ul p{
+    color: white;
+}
+.appInstallMarket span {
+    display: block;
+    color: #7a3d8a;
+    font-size: 18px;
+}
+footer .content p{
+    font-size: 10px;
+    color: #333;
+}
